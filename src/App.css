@@ -53,7 +53,7 @@ nav ul li {
   border-radius: 45px;
   box-sizing: border-box;
   background-color: #DDD;
-  border: 5px solid #cfd8dc;
+  border: 5px solid var(--primary-orange);
   margin: 25px;
   height: 55px;
   width: 55px;
