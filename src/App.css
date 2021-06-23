@@ -39,3 +39,15 @@ nav ul li {
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid;
 }
+
+.avatar {
+  display: block;
+  margin: 25px;
+  border-radius: 45px;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: 5px solid #cfd8dc;
+  margin: 25px;
+  height: 55px;
+  width: 55px;
+}
