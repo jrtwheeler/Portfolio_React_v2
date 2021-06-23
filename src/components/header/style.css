@@ -1,0 +1,16 @@
+.header-wrapper {
+    position: relative;
+    background: url(wall-and-laptop-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed" sans-serif;
+}
