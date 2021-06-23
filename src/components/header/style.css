@@ -27,5 +27,10 @@
 
 /**************************************HEAD******************************************/
 .btn-main-offer {
-    border: 1px solid var()
+    border: 1px solid var(--primary-red);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: .625rem .75rem .75rem .75rem;
+    color: var(--primary-white);
+    
 }
