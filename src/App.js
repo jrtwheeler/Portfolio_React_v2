@@ -19,7 +19,7 @@ function App() {
               }
             },
             shape: {
-              type: "circle",
+              type: "square",
               stroke: {
                 width: 6,
                 color: "#f9ab00"
