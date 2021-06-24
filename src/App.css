@@ -84,3 +84,8 @@ nav ul li {
   font-family: "Roboto Condensed" sans-serif;
 }
 
+.portrait-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
