@@ -9,6 +9,25 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                                 <h3>Web Design</h3>
+                                <p>Greeking</p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6">
+                            <div className="box">
+                                <h3>Web Design</h3>
+                                <p>Greeking</p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6">
+                            <div className="box">
+                                <h3>Web Design</h3>
+                                <p>Greeking</p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-sm-6">
+                            <div className="box">
+                                <h3>Web Design</h3>
+                                <p>Greeking</p>
                             </div>
                         </div>
                     </div>
@@ -17,3 +36,5 @@ const Services = () => {
         </div>
     )
 }
+
+export default Services
