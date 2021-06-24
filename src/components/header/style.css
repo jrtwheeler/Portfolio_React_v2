@@ -18,6 +18,7 @@
     align-items: center;
     text-align: center;
     font-family: "Roboto Condensed" sans-serif;
+    z-index: 2;
 }
 
 .main-info h1 {
@@ -25,10 +26,28 @@
     text-transform: uppercase;
 }
 
+@media(max-width: 768px) {
+    .main-info h1 {
+        font-size: 1.7rem !important;
+    }
+}
+
+@media(max-width: 568px) {
+    .main-info h1 {
+        font-size: 1.3rem !important;
+    }
+}
+
 /**************************************TYPED TEXT******************************************/
 .typed-text {
     font-size: 2rem;
     color: var(--primary-white); 
+}
+
+@media(max-width: 768px) {
+    .typed-text {
+        font-size: 1.3rem !important;
+    }
 }
 
 /**************************************HEADER MAIN OFFER BUTTON******************************************/
@@ -43,10 +62,23 @@
     text-decoration: none;
 }
 
+.btn-main-offer:hover {
+    text-decoration: none;
+    background-color: var(--primary-hover-red);
+    color: var(--primary-white);
+    transition: 0.2s ease-in-out;
+}
+
 /**************************************PARTICLES******************************************/
 .tsparticles-canvas-el {
     position: absolute;
     height: 100vh;
     width: 100vw;
     z-index: 1;
+}
+
+@media(max-width: 768px) {
+    .particles-canvas{
+        display: none;
+    }
 }

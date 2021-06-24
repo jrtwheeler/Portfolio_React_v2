@@ -12,6 +12,10 @@ body {
   font-family: "Roboto Condensed" sans-serif;
 }
 /********************************NAVBAR********************************/
+nav {
+  z-index: 2;
+}
+
 .logo {
   width: 16.25rem;
 }
