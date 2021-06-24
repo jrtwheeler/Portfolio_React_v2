@@ -8,6 +8,11 @@
 
 .main-info {
     display: flex;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,17 +25,28 @@
     text-transform: uppercase;
 }
 
+/**************************************TYPED TEXT******************************************/
 .typed-text {
     font-size: 2rem;
     color: var(--primary-white); 
 }
 
-/**************************************HEAD******************************************/
+/**************************************HEADER MAIN OFFER BUTTON******************************************/
 .btn-main-offer {
     border: 1px solid var(--primary-red);
     text-transform: uppercase;
     border-radius: 0;
     padding: .625rem .75rem .75rem .75rem;
     color: var(--primary-white);
-    
+    margin: 2rem;
+    font-size: medium;
+    text-decoration: none;
+}
+
+/**************************************PARTICLES******************************************/
+.tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
 }
