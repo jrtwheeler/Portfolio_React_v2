@@ -11,7 +11,7 @@ const Services = () => {
                     <div className="row">
                         <div className="col-md-3 col-sm-6">
                             <Card
-                                title={"FrontEnd  "}
+                                title={"Client-Side  "}
                                 icon={faLaptop}
                                 languageOne={"Javascript"}
                                 languageTwo={"CSS"}
@@ -20,7 +20,7 @@ const Services = () => {
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <Card
-                                title={"BackEnd  "}
+                                title={"Server-Side  "}
                                 icon={faServer}
                                 languageOne={"MySQL"}
                                 languageTwo={"MongoDB"}
@@ -29,7 +29,7 @@ const Services = () => {
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <Card
-                                title={"Frameworks"}
+                                title={"Javascript Frameworks"}
                                 languageOne={"React.js"}
                                 languageTwo={"Express.js"}
                                 languageThree={"Node.js"}
@@ -37,7 +37,7 @@ const Services = () => {
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <Card
-                                title={"Design Frameworks"}
+                                title={"CSS Frameworks"}
                                 languageOne={"Bootstrap"}
                                 languageTwo={"Bulma"}
                                 languageThree={"Material"}
