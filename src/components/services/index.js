@@ -44,10 +44,10 @@ const Services = () => {
                             />
                         </div>
                     </div>
-                    </div>
+                </div>
             </h1>
         </div>
-            )
+    )
 }
 
 export default Services
