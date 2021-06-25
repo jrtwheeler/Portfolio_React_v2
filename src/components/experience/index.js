@@ -1,4 +1,5 @@
 import React from "react";
+import ExperienceCard from "../experience_card"
 
 const Experience = () => {
     return (
@@ -10,7 +11,10 @@ const Experience = () => {
                     <div className="timeline-block timeline-block-right">
                         <div className="marker"></div>
                         <div className="timeline-content">
-                            <h3></h3>
+                            <ExperienceCard
+                            title={""}
+                            body={""}
+                            />
                         </div>
                         
                     </div>
