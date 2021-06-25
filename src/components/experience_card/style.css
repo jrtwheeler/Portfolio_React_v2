@@ -1,0 +1,10 @@
+.exprience_card_title {
+    margin-top: 0.3125rem;
+    color: var(--primary-red);
+    font-weight: 600;
+}
+
+.exprience_card_body {
+    font-family: "Roboto Condensed" sans-serif;
+    font-size: small;
+}
