@@ -6,6 +6,7 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-navy:  rgb(12, 10, 36);
 }
 
 body {
@@ -88,4 +89,9 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*******************ABOUT ME PORTRAIT************************************/
+.services {
+  background-color: darkgrey;
 }

@@ -1,0 +1,32 @@
+.card-text, .card-title, .icon {
+    color: white;
+    font-family: "Roboto Condensed" sans-serif;
+}
+
+.card-text {
+    font-size: .8rem;
+}
+
+.card-title, .icon {
+    justify-content: center;
+    color: var(--primary-orange);
+}
+
+.card {
+    background-color: var(--primary-navy);
+    border-radius: 2%;
+    border-bottom: 0.1875rem solid var(--primary-orange);
+}
+
+.card:hover {
+    background-color: white;
+    border-radius: 2%;
+    border-bottom: 0.1875rem solid var(--primary-navy);
+  }
+  
+
+@media(max-width: 768px) {
+    .card-body {
+        padding: 1.3rem !important;
+    }
+}

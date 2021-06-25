@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLaptop, faServer, faMobile } from "@fortawesome/free-solid-svg-icons";
+import Card from "../card"
 
 const Services = () => {
     return (
@@ -7,34 +10,44 @@ const Services = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                                <h3>Web Design</h3>
-                                <p>Greeking</p>
-                            </div>
+                            <Card
+                                title={"Client-Side  "}
+                                icon={faLaptop}
+                                languageOne={"Javascript"}
+                                languageTwo={"CSS"}
+                                languageThree={"HTML"}
+                            />
                         </div>
                         <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                                <h3>Web Design</h3>
-                                <p>Greeking</p>
-                            </div>
+                            <Card
+                                title={"Server-Side  "}
+                                icon={faServer}
+                                languageOne={"MySQL"}
+                                languageTwo={"MongoDB"}
+                                languageThree={"Python"}
+                            />
                         </div>
                         <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                                <h3>Web Design</h3>
-                                <p>Greeking</p>
-                            </div>
+                            <Card
+                                title={"Javascript Frameworks"}
+                                languageOne={"React.js"}
+                                languageTwo={"Express.js"}
+                                languageThree={"Node.js"}
+                            />
                         </div>
                         <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                                <h3>Web Design</h3>
-                                <p>Greeking</p>
-                            </div>
+                            <Card
+                                title={"CSS Frameworks"}
+                                languageOne={"Bootstrap"}
+                                languageTwo={"Bulma"}
+                                languageThree={"Material"}
+                            />
                         </div>
                     </div>
-                </div>
+                    </div>
             </h1>
         </div>
-    )
+            )
 }
 
 export default Services
