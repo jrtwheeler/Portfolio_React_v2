@@ -9,7 +9,7 @@ const Services = () => {
             <h1 className="py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <Card
                                 title={"Client-Side  "}
                                 icon={faLaptop}
@@ -18,7 +18,7 @@ const Services = () => {
                                 languageThree={"HTML"}
                             />
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <Card
                                 title={"Server-Side  "}
                                 icon={faServer}
@@ -27,7 +27,7 @@ const Services = () => {
                                 languageThree={"Python"}
                             />
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <Card
                                 title={"Javascript Frameworks"}
                                 languageOne={"React.js"}
@@ -35,7 +35,7 @@ const Services = () => {
                                 languageThree={"Node.js"}
                             />
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <Card
                                 title={"CSS Frameworks"}
                                 languageOne={"Bootstrap"}

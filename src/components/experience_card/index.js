@@ -4,8 +4,8 @@ import "./style.css";
 const Experience_Card = (props) => {
     return (
         <div>
-        <h1>{props.title}</h1>
-        <p>{props.body}</p>
+        <h4 className="exprience_card_title">{props.title}</h4>
+        <p className="exprience_card_body">{props.body}</p>
         </div>
     )
 }
