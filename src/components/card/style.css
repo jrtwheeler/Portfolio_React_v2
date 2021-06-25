@@ -22,6 +22,7 @@
     background-color: white;
     border-radius: 2%;
     border-bottom: 0.1875rem solid var(--primary-navy);
+    transition: 0.3s ease-in-out;
   }
   
 

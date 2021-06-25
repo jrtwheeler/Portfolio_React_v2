@@ -19,7 +19,7 @@
     content: "";
     top: 0;
     left: 50%;
-    margin-left: -0.0625rem;
+    margin-left: -0.0625rem !important;
     width: 0.125rem;
     height: 100%;
     background: var(--primary-grey);
