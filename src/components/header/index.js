@@ -6,10 +6,14 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>web development and website promotions</h1>
+                <h1>full stack web development</h1>
                 <Typed
                     className="typed-text"
-                    strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+                    strings={["Front-End Web Development", "HTML 5", "CSS 3", "Bootstrap 4",
+                        "JavaScript ES6", "DOM Manipulation", "jQuery", "Bash Command Line", "Git", "GitHub and Version Control", "Backend Web Development",
+                         "Node.js", "NPM", "Express.js", "EJS", "REST", "APIs", "Databases", "SQL", "MongoDB", "Mongoose", "Authentication",
+                        "Firebase", "React.js", "React Hooks", "Web Design", "Deployment with GitHub Pages", "Heroku and MongoDB Atlas",
+                        "Python3", "Extendscript"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
