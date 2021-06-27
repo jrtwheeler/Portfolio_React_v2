@@ -1,14 +1,14 @@
 import React from "react";
+import "./style.css";
 import TestimonialsCarousel from "../testimonials_carousel";
 
 const Testimonials = () => {
     return (
-        <div className="testimonials">
-            <h1>my happy clients</h1>
+        <div id="testimonials" className="testimonials">
+            <h3 className="testimonials">testimonials</h3>
             <div className="container">
                 <div className="testimonials-content">
-                    <TestimonialsCarousel>
-                    </TestimonialsCarousel>
+                    <TestimonialsCarousel/>
                 </div>
             </div>
         </div>
