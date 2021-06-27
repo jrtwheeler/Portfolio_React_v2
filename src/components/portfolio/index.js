@@ -17,7 +17,7 @@ const Portfolio = () => {
 
     const popupboxConfigWalter = {
         titleBar: {
-            enable: true
+            enable: true,
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -25,7 +25,7 @@ const Portfolio = () => {
 
     const popupboxConfigBike = {
         titleBar: {
-            enable: true
+            enable: true,
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -33,7 +33,7 @@ const Portfolio = () => {
 
     const popupboxConfigPour = {
         titleBar: {
-            enable: true
+            enable: true,
         },
         fadeIn: true,
         fadeInSpeed: 500
