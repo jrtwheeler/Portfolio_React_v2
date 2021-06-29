@@ -18,6 +18,21 @@ const Contacts = () => {
                         className="form-control"
                         placeholder="Phone Number"
                         name="phone"/>
+                        <input
+                        className="form-control"
+                        placeholder="Email"
+                        name="email"/>
+                        <input
+                        className="form-control"
+                        placeholder="Subject"
+                        name="subject"/>
+                    </div>
+                    <div className="col-md-6 col-xs-12">
+                        <textarea
+                        className="form-control"
+                        placeholder=""
+                        email=""
+                        ></textarea>
                     </div>
                 </div>
             </dic>
