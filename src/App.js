@@ -8,6 +8,7 @@ import Services from "./components/services";
 import Experience from "./components/experience";
 import Portfolio from "./components/portfolio";
 import Testimonials from './components/testimonials';
+import Contacts from './components/contact';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Experience/>
       <Portfolio/>
       <Testimonials/>
+      <Contacts/>
     </h2>
   );
 }
