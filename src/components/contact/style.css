@@ -1,5 +1,5 @@
 .contacts {
-    background: var(--primary-dark);
+    background: var(--primary-light-grey);
     padding: 3rem 0;
 }
 
@@ -12,4 +12,8 @@
 .contacts p {
     color: var(--primary-light-grey);
     font-size: 1.2rem;
+}
+
+.contacts input, .contacts textarea {
+    width: 100%;
 }
