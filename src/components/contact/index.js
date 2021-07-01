@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const Contacts = () => {
     return (
@@ -7,7 +8,7 @@ const Contacts = () => {
             <h1>contact me</h1>
             <p></p>
             </div>
-            <dic className="container">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-xs-12">
                         {/* NAME */}
@@ -50,7 +51,7 @@ const Contacts = () => {
                         <button className="btn-main-offer contact-btn" type="submit">contact me</button>
                     </div>
                 </div>
-            </dic>
+            </div>
         </div>
     )
 }
