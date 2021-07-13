@@ -1,11 +1,12 @@
-import React from 'react';
-import emailjs from 'emailjs-com';
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import { useForm } from "react-hook-form";
 import env from "react-dotenv";
-
-// import './ContactUs.css';
+import "./style.css";
 
 const Contacts = () => {
-
+    const [successMessage, setSuccessMessage] = useState("");
+    const { register, handleSubmit, errors } = useForm();
     const REACT_APP_USER_ID = env.REACT_APP_USER_ID;
     const REACT_APP_TEMPLATE_ID = env.REACT_APP_TEMPLATE_ID;
     const REACT_APP_SERVICE_ID = env.REACT_APP_SERVICE_ID;
@@ -25,18 +26,96 @@ const Contacts = () => {
       });
   }
 
-  return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-  );
+    return (
+        <div className="contacts">
+            <div className="text-center">
+                <h1>contact me</h1>
+                <p>Please fill out the form and describe you project needs and I'll contact you as soon as possible.</p>
+                <span className="success-message">{successMessage}</span>
+            </div>
+            <div className="container">
+                <form className="contact-form" onSubmit={sendEmail}>
+                    <div className="row">
+                        <div className="col-md-6 col-xs-12">
+                            {/* NAME INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    placeholder="Name"
+                                    name="name"
+                                    {...register("name", { required: "Please enter your name." })}
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* <span className="error-message">
+                {errors.name && errors.name.message}
+              </span> */}
+                            {/* PHONE INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    placeholder="Phone Number"
+                                    name="phone"
+                                    {...register("phone", { required: "Please enter your phone number." })}
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* <span className="error-message">
+                {errors.phone && errors.phone.message}
+              </span> */}
+                            {/* EMAIL INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    placeholder="Email"
+                                    name="email"
+                                    {...register("email", { required: "Please enter your email." })}
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* <span className="error-message">
+                {errors.email && errors.email.message}
+              </span> */}
+                            {/* SUBJECT INPUT */}
+                            <div className="text-center">
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    placeholder="Subject"
+                                    name="subject"
+                                    {...register("subject", { required: "Please enter a subject." })}
+                                />
+                                <div className="line"></div>
+                            </div>
+                            {/* <span className="error-message">
+                {errors.subject && errors.subject.message}
+              </span> */}
+                        </div>
+                        <div className="col-md-6 col-xs-12">
+                            {/* DESCRIPTION */}
+                            <div className="text-center">
+                                <textarea
+                                    type="text"
+                                    className="form-control"
+                                    placeholder="Please describe shortly you project..."
+                                    name="description"
+                                    {...register("description", { required: "Please enter a short description of the job." })}
+                                ></textarea>
+                                <div className="line"></div>
+                            </div>
+                            {/* <span className="error-message">
+                {errors.description && errors.description.message}
+              </span> */}
+                            <button className="btn-main-offer contact-btn" type="submit">contact me</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    )
 }
 
 export default Contacts;
