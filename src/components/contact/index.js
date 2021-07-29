@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as Yup from "yup";
+import "yup-phone";
 import env from "react-dotenv";
 import "./style.css";
 
@@ -15,16 +18,24 @@ const Contacts = () => {
     console.log(REACT_APP_USER_ID)
     console.log(env)
 
-  function sendEmail(e) {
-    e.preventDefault();
+    // form validation rules
+    const validationSchema = Yup.object().shape({
+        id: Yup.string(),
+        name: Yup.string().required("Design Name is required"),
+        created_by: Yup.string().required("Designer Name is required"),
+        comment: Yup.string(),
+    });
 
-    emailjs.sendForm(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, e.target, REACT_APP_USER_ID)
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  }
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, e.target, REACT_APP_USER_ID)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
 
     return (
         <div className="contacts">
@@ -100,7 +111,7 @@ const Contacts = () => {
                                 <textarea
                                     type="text"
                                     className="form-control"
-                                    placeholder="Please describe shortly you project..."
+                                    placeholder="Please provide a short description of your project..."
                                     name="description"
                                     {...register("description", { required: "Please enter a short description of the job." })}
                                 ></textarea>
