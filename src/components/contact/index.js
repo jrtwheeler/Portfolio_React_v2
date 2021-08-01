@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import * as Yup from "yup";
-import "yup-phone";
 import env from "react-dotenv";
 import "./style.css";
 
@@ -17,14 +14,6 @@ const Contacts = () => {
     console.log(REACT_APP_TEMPLATE_ID);
     console.log(REACT_APP_USER_ID);
     console.log(env);
-
-    // form validation rules
-    const validationSchema = Yup.object().shape({
-        id: Yup.string(),
-        name: Yup.string().required("Design Name is required"),
-        created_by: Yup.string().required("Designer Name is required"),
-        comment: Yup.string(),
-    });
 
     function sendEmail(e) {
         e.preventDefault();
