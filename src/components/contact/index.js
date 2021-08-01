@@ -13,10 +13,10 @@ const Contacts = () => {
     const REACT_APP_USER_ID = env.REACT_APP_USER_ID;
     const REACT_APP_TEMPLATE_ID = env.REACT_APP_TEMPLATE_ID;
     const REACT_APP_SERVICE_ID = env.REACT_APP_SERVICE_ID;
-    console.log(REACT_APP_SERVICE_ID)
-    console.log(REACT_APP_TEMPLATE_ID)
-    console.log(REACT_APP_USER_ID)
-    console.log(env)
+    console.log(REACT_APP_SERVICE_ID);
+    console.log(REACT_APP_TEMPLATE_ID);
+    console.log(REACT_APP_USER_ID);
+    console.log(env);
 
     // form validation rules
     const validationSchema = Yup.object().shape({
