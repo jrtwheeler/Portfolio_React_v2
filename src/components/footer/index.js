@@ -9,11 +9,13 @@ import {
   LinkedinShareButton,
   LinkedinIcon
 } from "react-share";
+import "./style.css";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
+      <div className="row space"></div>
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
@@ -26,7 +28,7 @@ const Footer = () => {
               <p>greeking@gmail.com</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-2 col-sm-6">
+          <div className="col-lg-3 col-md-2 col-sm-6 list">
             <div className="row">
               <div className="col">
                 <a className="footer-nav">Home</a>
@@ -44,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center share">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
                 url={"https://www.youtube.com"}
