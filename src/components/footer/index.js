@@ -9,6 +9,7 @@ import {
   LinkedinShareButton,
   LinkedinIcon
 } from "react-share";
+import {Link} from "react-scroll";
 import "./style.css";
 
 const Footer = () => {
@@ -31,18 +32,18 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6 list">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
+                <Link smooth="true" to="home" className="footer-nav">Home</Link>
                 <br />
-                <a className="footer-nav">About me</a>
+                <Link smooth="true" to="about" className="footer-nav">About me</Link>
                 <br />
-                <a className="footer-nav">Services</a>
+                <Link smooth="true" to="services" className="footer-nav">Services</Link>
               </div>
               <div className="col">
-                <a className="footer-nav">Experience</a>
+                <Link smooth="true" to="experience" className="footer-nav">Experience</Link>
                 <br />
-                <a className="footer-nav">Portfolio</a>
+                <Link smooth="true" to="portfolio" className="footer-nav">Portfolio</Link>
                 <br />
-                <a className="footer-nav">Contacts</a>
+                <Link smooth="true" to="contacts" className="footer-nav">Contacts</Link>
               </div>
             </div>
           </div>
