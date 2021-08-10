@@ -3,7 +3,7 @@ import portrait from "../../mn_portrait.jpg";
 
 const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12 portrait-wrap mb-5">
                     <img className="float-left mr-2 mb-2 portrait" src={portrait} alt="" />
