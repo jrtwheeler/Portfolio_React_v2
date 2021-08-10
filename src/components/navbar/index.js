@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../mn_portrait.jpg";
+import {Link} from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 
@@ -15,22 +16,22 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home</a>
+                            <Link smooth="true" to="home" className="nav-link" href="#">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About Me</a>
+                            <Link smooth="true" to="about me" className="nav-link" href="#">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Services</a>
+                            <Link smooth="true" to="services" className="nav-link" href="#">Services</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Experience</a>
+                            <Link smooth="true" to="experience" className="nav-link" href="#">Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
+                            <Link smooth="true" to="portfolio" className="nav-link" href="#">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contacts</a>
+                            <Link smooth="true" to="contacts" className="nav-link" href="#">Contacts</Link>
                         </li>
                     </ul>
                 </div>
