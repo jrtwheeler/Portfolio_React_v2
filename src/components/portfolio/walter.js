@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 //REACT POPUPBOX
-import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+import { PopupboxManager } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const openPopupboxWalter = () => {
