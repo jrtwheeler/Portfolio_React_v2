@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaptop, faServer, faMobile } from "@fortawesome/free-solid-svg-icons";
+import { faLaptop, faServer } from "@fortawesome/free-solid-svg-icons";
 import Card from "../card"
 
 const Services = () => {

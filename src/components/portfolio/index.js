@@ -5,9 +5,9 @@ import Bike from "../../assets/bike_shop.PNG";
 import Pour from "../../assets/pour_decision.jpg";
 //FONT AWESOME
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus, faLaptop } from "@fortawesome/free-solid-svg-icons";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 //REACT POPUPBOX
-import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+import { PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 import openPopupboxWalter from "./walter.js";
 import openPopupboxBike from "./bike.js";
