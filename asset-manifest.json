@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio_React_v2/static/css/main.7351afa2.chunk.css",
+    "main.js": "/Portfolio_React_v2/static/js/main.a57c41aa.chunk.js",
+    "main.js.map": "/Portfolio_React_v2/static/js/main.a57c41aa.chunk.js.map",
+    "runtime-main.js": "/Portfolio_React_v2/static/js/runtime-main.d5bc97a4.js",
+    "runtime-main.js.map": "/Portfolio_React_v2/static/js/runtime-main.d5bc97a4.js.map",
+    "static/css/2.5e581eca.chunk.css": "/Portfolio_React_v2/static/css/2.5e581eca.chunk.css",
+    "static/js/2.c8d3f350.chunk.js": "/Portfolio_React_v2/static/js/2.c8d3f350.chunk.js",
+    "static/js/2.c8d3f350.chunk.js.map": "/Portfolio_React_v2/static/js/2.c8d3f350.chunk.js.map",
+    "static/js/3.3bc9bd29.chunk.js": "/Portfolio_React_v2/static/js/3.3bc9bd29.chunk.js",
+    "static/js/3.3bc9bd29.chunk.js.map": "/Portfolio_React_v2/static/js/3.3bc9bd29.chunk.js.map",
+    "index.html": "/Portfolio_React_v2/index.html",
+    "static/css/2.5e581eca.chunk.css.map": "/Portfolio_React_v2/static/css/2.5e581eca.chunk.css.map",
+    "static/css/main.7351afa2.chunk.css.map": "/Portfolio_React_v2/static/css/main.7351afa2.chunk.css.map",
+    "static/js/2.c8d3f350.chunk.js.LICENSE.txt": "/Portfolio_React_v2/static/js/2.c8d3f350.chunk.js.LICENSE.txt",
+    "static/media/avatar-1.9277ecea.png": "/Portfolio_React_v2/static/media/avatar-1.9277ecea.png",
+    "static/media/avatar-2.75d8f23e.png": "/Portfolio_React_v2/static/media/avatar-2.75d8f23e.png",
+    "static/media/avatar-3.d6c9b46f.png": "/Portfolio_React_v2/static/media/avatar-3.d6c9b46f.png",
+    "static/media/avatar-4.f7fb7ed7.png": "/Portfolio_React_v2/static/media/avatar-4.f7fb7ed7.png",
+    "static/media/bike_shop.df3aed1e.PNG": "/Portfolio_React_v2/static/media/bike_shop.df3aed1e.PNG",
+    "static/media/mn_portrait.cdd71788.jpg": "/Portfolio_React_v2/static/media/mn_portrait.cdd71788.jpg",
+    "static/media/pour_decision.8c9825e0.jpg": "/Portfolio_React_v2/static/media/pour_decision.8c9825e0.jpg",
+    "static/media/style.css": "/Portfolio_React_v2/static/media/wall-and-laptop-background.f9e274f4.jpg",
+    "static/media/walters_app.66a59a6b.PNG": "/Portfolio_React_v2/static/media/walters_app.66a59a6b.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5bc97a4.js",
+    "static/css/2.5e581eca.chunk.css",
+    "static/js/2.c8d3f350.chunk.js",
+    "static/css/main.7351afa2.chunk.css",
+    "static/js/main.a57c41aa.chunk.js"
+  ]
+}
