@@ -25,3 +25,9 @@ a:link, .footer-nav {
   .space {
       margin: 5px;
   }
+
+  @media(max-width: 768px) {
+    .footer {
+        padding: 5px 0;
+    }
+}
