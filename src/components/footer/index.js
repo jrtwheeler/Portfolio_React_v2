@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center share">
-            <div className="d-flex justify-content-center mt-3">
+            <div className="d-flex justify-content-center mt-4">
               <FacebookShareButton
                 url={"https://www.youtube.com"}
                 quote={"FullStack Developer"}
