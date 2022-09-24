@@ -8,7 +8,7 @@
   * [License](#License)
   ## Description
   The portfolio website presents my portfolio, my CV, links to my GitHub repo and LinkedIn profile, and a real time example of my ability as a designer and a UI/UX designer. My intention is to use the page both as a portfolio and as a testing ground for ideas from and for other projects. The goal is for the portfolio page to grow with me, as a journal I keep on my coding journey.
-### [Deployment](https://jrtwheeler.github.io/Portfolio/).
+### [Deployment](https://jrtwheeler.github.io/Portfolio_React_v2/).
   ## Credits
 * Reactjs
 * React-hooks
